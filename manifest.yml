@@ -1,0 +1,7 @@
+applications:
+  - name: latam-account-intelligence
+    buildpacks:
+      - staticfile_buildpack
+    memory: 64M
+    disk_quota: 256M
+    path: .
